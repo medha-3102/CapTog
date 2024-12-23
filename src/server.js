@@ -18,7 +18,7 @@ const server = http.createServer(app);
 const io = new Server(server);
 
 // MongoDB Atlas Connection
-const mongoURI = "mongodb+srv://medha3102:Aahijayega1%23@cluster0.0jzfp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = "YOUR API KEY";
 mongoose.set("strictQuery", true);
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("Connected to MongoDB Atlas"))
